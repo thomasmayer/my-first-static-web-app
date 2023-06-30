@@ -9,7 +9,7 @@
       "statusCode": 302,
       "redirect": "/.auth/login/aad"
     }
-  }
+  },
 {
   "auth": {
     "identityProviders": {
