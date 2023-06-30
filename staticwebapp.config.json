@@ -25,26 +25,6 @@
             "allowedRoles": ["anonymous"]
         },
         {
-            "route": "/.auth/login/facebook",
-            "allowedRoles": ["anonymous", "authenticated"],
-            "statusCode": 404
-        },
-        {
-            "route": "/.auth/login/github",
-            "allowedRoles": ["anonymous", "authenticated"],
-            "statusCode": 404
-        },
-        {
-            "route": "/.auth/login/google",
-            "allowedRoles": ["anonyous", "authenticated"],
-            "statusCode": 404
-        },
-        {
-            "route": "/.auth/login/twitter",
-            "allowedRoles": ["anonymous", "authenticated"],
-            "statusCode": 404
-        },
-        {
             "route": "/*",
             "allowedRoles": ["authenticated"]
         }
