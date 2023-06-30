@@ -2,26 +2,5 @@
     "navigationFallback": {
         "rewrite": "/index.html"
     }
-    "auth": {
-      "identityProviders": {
-        "customOpenIdConnectProviders": {
-          "aadb2c": {
-            "registration": {
-              "clientIdSettingName": "b870a5ee-a259-4837-8ee9-6af022519504",
-              "clientCredential": {
-                "clientSecretSettingName": "anH8Q~UFIDKXO8xJPQL82Fv8YDmjFvljVk.KIaxY"
-              },
-              "openIdConnectConfiguration": {
-                "wellKnownOpenIdConfiguration": "https://thmrb2c.b2clogin.com/thmrb2c.onmicrosoft.com/B2C_1_MyFirstUserFlow/v2.0/.well-known/openid-configuration"
-              }
-            },
-            "login": {
-              "nameClaimType": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
-              "scopes": [],
-              "loginParameterNames": []
-            }
-          }
-        }
-      }
-    }
+   
 }
